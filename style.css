@@ -131,7 +131,7 @@ footer p {
 }
 
 /* -------  Media Query ------- */
-@media all and (min-width: 600px) {
+@media all and (min-width: 480px) {
   body header {
     display: flex;
     flex-direction: row;
@@ -147,13 +147,24 @@ footer p {
   }
 
   main img {
-    width: 50%;
+    width: 66%;
   }
 
   form select,
   form input {
     margin-bottom: 20px;
     width: 195px;
+  }
+
+  #join {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+
+  #form {
+    width: 33%;
+    align-self: center;
   }
 
   main #about {
