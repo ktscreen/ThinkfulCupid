@@ -51,6 +51,12 @@ main img {
   flex: 2;
 }
 
+.form-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 /* -------  Navigation ------- */
 
 header {
@@ -91,23 +97,16 @@ header nav ul li a:hover {
 form {
   border: 2px solid #6b1a22;
   padding: 10px;
-
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-
 }
 
 form label {
   font-weight: bold;
-  flex: 0 49%;
 }
 
 form select,
 form input {
   margin-bottom: 20px;
-  width: 180px;
-  flex: 0 49%;
+  width: 150px;
 }
 
 form button {
@@ -147,19 +146,14 @@ footer p {
     align-self: flex-end;
   }
 
-  main #join {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-
   main img {
     width: 50%;
   }
 
-  main #join div {
-    padding: 15px;
-    align-self: center;
+  form select,
+  form input {
+    margin-bottom: 20px;
+    width: 195px;
   }
 
   main #about {
